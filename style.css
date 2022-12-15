@@ -1,0 +1,23 @@
+html {
+    background-image: url('./blue-gradient.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    box-shadow: black 3px 3px;
+    width:600px;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
