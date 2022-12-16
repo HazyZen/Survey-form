@@ -11,16 +11,15 @@
         <h1>Survey Form</h1>
         <div class="container">
             <form id="form">
-
                 <div class="form-control">
                     <label for="name">Name</label><br>
-                    <input type="text" placeholder="Enter your full name"><br><br>
-                </div>
+                    <input type="text" placeholder="Enter your full name">
+                </div><br>
 
-                <div class="form-control"></div>
+                <div class="form-control">
                     <label for="email">Email</label><br>
-                    <input type="text" placeholder="Enter your email"><br><br>
-                </div>
+                    <input type="text" placeholder="Enter your email">
+                </div><br>
 
                 <div class="form-control">
                     <label for="option">Which option best describes you?</label><br>
@@ -29,14 +28,34 @@
                         <option value="intern">Intern</option>
                         <option value="professional">Professional</option>
                         <option value="other">Other</option>
-                    </select><br><br>
-                </div>
+                    </select>
+                </div><br>
 
-                <div class="form-control"></div>
-                    <label>Would you recommend this to a friend?</label><br>
-                    <input type="radio" name="recommend">Yes</input>
-                    <input type="radio" name="recommend">No</input>
-                    <input type="radio" name="recommend">Maybe</input>
+                <div class="form-control">
+                    <label for="recommend" >Would you recommend this to a friend?</label><br>
+                    <input type="radio" name="recommend"><label>Yes</label></input>
+                    <input type="radio" name="recommend"><label>No</label></input>
+                    <input type="radio" name="recommend"><label>Maybe</label></input>
+                </div><br>
+
+                <div class="form-control">
+                    <label>Languages and Frameworks known <small>(Check all that apply)</small></label><br>
+                    <input type="checkbox" name="know">C</input><br>
+                    <input type="checkbox" name="know">C++</input><br>
+                    <input type="checkbox" name="know">C#</input><br>
+                    <input type="checkbox" name="know">Java</input><br>
+                    <input type="checkbox" name="know">Python</input><br>
+                    <input type="checkbox" name="know">JavaScript</input><br>
+                    <input type="checkbox" name="know">React</input><br>
+                    <input type="checkbox" name="know">Angular</input>
+                </div><br>
+                <div class="form-control">
+                    <label for="comment">Any comments or suggestions</label><br>
+                    <textarea name="comment" id="comment" placeholder="Enter your comment here">
+                    </textarea>
+                </div><br><br>
+                <div class="button">
+                    <button type="submit" value="submit">Submit</button>
                 </div>
             </form>
         </div>
